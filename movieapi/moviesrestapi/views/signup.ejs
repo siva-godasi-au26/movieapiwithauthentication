@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <h1>SignUP to the Moives application</h1>
+    <form action="/signup" method="post">
+        <div>
+            <label>Name</label>
+            <input type="text" name="name" required>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" required>
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" name="password" required>
+        </div>
+        <div>
+            <label>Phone Number</label>
+            <input type="text" name="phonenumber" required>
+        </div>
+        <button type="submit">Signup</button>
+    </form>
+    <div><a href="/login">already having an account click here to reach login page</a></div>
+</body>
+</html>
